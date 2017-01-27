@@ -4,5 +4,8 @@ a combination of two estimators, one based on incomplete variables, and the othe
 
 
 # Here's how you install it
+
+```
 library(devtools)
-install_github("jtleek/mypkg")
+install_github("laoshen22/rblockmis")
+```
