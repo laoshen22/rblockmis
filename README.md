@@ -1,17 +1,8 @@
+# Introduction to rblockmis
+Regression with block missing. This is a package I'm creating for estimating the regression coefficients that is
+a combination of two estimators, one based on incomplete variables, and the other based on complete variables.
 
-Package: rblockmis
-Type: 
-Title: Regression with block missing
-Version: 0.1.0
-Date: 2017-01-28
-Authors@R: c(person("Lisa", "Ling", role = c("aut", "cre", "ths"),
-    email = "lisaling@dal.ca"))
-Depends:
-    R(>= 3.3.1)
-Suggests:
-    knitr,
-    BiocStyle
-VignetteBuilder: knitr
-Description: Estimate the regression coefficients with block missing observations. A combination of two estimators, one based on incomplete variables, and the other
-based on complete variables.
-License: Artistic-2.0
+
+# Here's how you install it
+library(devtools)
+install_github("jtleek/mypkg")
