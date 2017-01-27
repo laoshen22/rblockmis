@@ -1,9 +1,13 @@
 Package: rblockmis
-Title: What the Package Does (one line, title case)
-Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Title: Regression with block missing
+Version: 0.1.0
+Date: 2017-01-28
+Authors@R: person("Lisa", "Ling", email = "lisaling@dal.ca", role = c("aut", "cre"))
+Description: Estimate the regression coefficients with block missing observations. A combination of two estimators, one based on incomplete variables, and the other
+based on complete variables.
 Depends: R (>= 3.3.1)
-License: What license is it under?
+License: Artistic-2.0
 Encoding: UTF-8
 LazyData: true
+VignetteBuilder: knitr
+
